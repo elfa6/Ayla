@@ -1,5 +1,6 @@
 import './style.css';
 import * as THREE from 'three';
+import { defineConfig } from 'vite';
 
 
 // Setup
@@ -129,3 +130,6 @@ function animate() {
 
 animate();
 
+export default defineConfig({
+  base: '/Ayla/'
+})
